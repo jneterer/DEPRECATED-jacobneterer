@@ -1,0 +1,57 @@
+@mixin aboveDesktop() {
+  @media (min-width: 1383px) {
+    @content;
+  }
+}
+@mixin belowDesktop() {
+  @media (max-width: 1382px) {
+    @content;
+  }
+}
+@mixin aboveIpadPro() {
+  @media (min-width: 1367px) {
+    @content;
+  }
+}
+@mixin belowIpadPro() {
+  @media (max-width: 1366px) {
+    @content;
+  }
+}
+@mixin aboveIpad() {
+  @media (min-width: 1224px) {
+    @content;
+  }
+}
+@mixin belowIpad() {
+  @media (max-width: 1223px) {
+    @content;
+  }
+}
+@mixin aboveTablet() {
+  @media (min-width: 769px) {
+    @content;
+  }
+}
+@mixin belowTablet() {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin abovePhone() {
+  @media (min-width: 450px) {
+    @content;
+  }
+}
+@mixin belowPhone() {
+  @media (max-width: 449px) {
+    @content;
+  }
+}
+// Reusable mixins.
+@mixin borderRadius($radius) {
+  border-radius: $radius;
+}
+@mixin shadow() {
+  box-shadow: 0px 0px 20px 15px rgba(0,0,0,.24);
+}
