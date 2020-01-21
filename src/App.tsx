@@ -7,7 +7,7 @@ const App: React.FC = () => {
   return (
     <React.Fragment>
       <Header />
-      <div className="main-content-container">
+      <div id="mainContent" className="main-content-container">
         <Hero />
       </div>
     </React.Fragment>

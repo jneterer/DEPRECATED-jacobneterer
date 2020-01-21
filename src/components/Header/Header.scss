@@ -3,17 +3,20 @@
 
 .header {
   &-container {
-    align-items: center;
-    background-color: $red;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+    .header {
+      padding-top: 10px;
+    }
+    .sub-header {
+      height: 40px;
+    }
+    .header, .sub-header {
+      background-color: $red;
+      color: white;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
     h1 {
       font-size: 45px;
       font-weight: normal;

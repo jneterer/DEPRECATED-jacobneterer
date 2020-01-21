@@ -16,13 +16,20 @@
     }
   }
   &-me-container {
-    width: 30%;
+    @include aboveTablet() {
+      width: 30%;
+    }
+    @include belowTablet() {
+      padding-bottom: 3em;
+    }
   }
   &-info-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 70%;
+    @include aboveTablet() {
+      width: 70%;
+    }
     h2 {
       font-size: 35px;
       font-weight: normal;

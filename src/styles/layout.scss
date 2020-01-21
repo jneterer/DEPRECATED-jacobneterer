@@ -1,17 +1,33 @@
 .container {
   padding: 20px;
-  @include aboveIpad() {
+  margin: 0 auto;
+  @include aboveIpadPro() {
     margin: 0 auto;
     width: 60%;
   }  
-  @include belowIpad() {
-    @include aboveTablet() {
-      border: 1px solid black;
-      margin: 0 auto;
-      width: 75%;
-    }
-    @include belowTablet() {
-      margin: 0 20px;
+  @include belowIpadPro() {
+    width: 75%;
+    @include belowIpad() {
+      @include aboveTablet() {
+        width: 90% !important;
+      }
+      @include belowTablet() {
+        flex-direction: column;
+        justify-content: center;
+      }
     }
   }
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky-main-content {
+  position: relative;
+  top: 40px;
+  z-index: -1;
+}
+.hide {
+  display: none !important;
 }
