@@ -18,8 +18,9 @@ const Hero: React.FC = () => {
         </p>
         <p>
           Follow me to keep up with what I'm doing on <a href="https://twitter.com/jacobneterer" target="_blank" rel="noopener noreferrer" className="link">Twitter</a> and&nbsp;
-          <a href="https://github.com/jneterer" target="_blank" rel="noopener noreferrer" className="link">GitHub</a> or get in contact with me through&nbsp;
-          <a href="mailto:jacobrneterer@gmail.com" rel="noopener noreferrer" className="link">Email</a>!
+          <a href="https://github.com/jneterer" target="_blank" rel="noopener noreferrer" className="link">GitHub</a>, get in contact with me through&nbsp;
+          <a href="mailto:jacobrneterer@gmail.com" rel="noopener noreferrer" className="link">Email</a>, or join my email notificaition list 
+          by <a href="" rel="noopener noreferrer" className="link">Subscribing</a> to get email updates from me directly!
         </p>
       </div>
     </div>

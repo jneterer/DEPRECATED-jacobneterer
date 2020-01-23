@@ -8,7 +8,7 @@ const WhatIKnow: React.FC = () => {
         I've been working as a full stack web developer for almost 2 years with technologies like:
       </p>
       <ul>
-        <li>Angular 4+ (which includes Angular Material, HTML5, CSS and SASS, Javascript and Typescript, and JQuery) - single page application framework </li>
+        <li>Angular 4+ (which includes Angular Universal, Angular Material, HTML5, CSS and SASS, Javascript and Typescript, and JQuery) - single page application framework </li>
         <li>Node.js - framework for server-side and networking applications</li>
         <li>GIT and SVN (Tortoise SVN, Visual SVN, Github, Atlassian Products like Jira, Confluence and Bitbucket, and much more) - version control</li>
         <li>Okta - user identity management (Single Sign On or SSO)</li>
