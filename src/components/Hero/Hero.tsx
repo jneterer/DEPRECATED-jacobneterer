@@ -9,16 +9,17 @@ const Hero: React.FC = () => {
         <img className="me" src={me} alt="me"/>
       </div>
       <div className="hero-info-container">
-        <h2 className="hero-title">I'm a Full Stack Developer!</h2>
+        <h2 className="hero-title">I'm a Full Stack Web Developer!<span role="img" aria-label="Man Behind Computer Emoji">👨‍💻</span></h2>
         <p className="hero-message">
-          I've been building web apps since my Junior year of college (September 2017) and I love building Full
-          Stack JavaScript web apps. Lately I've been focusing on expanding my knowledge of front end frameworks
-          like React (which is what I used to build this site &#128515;) and other technology like AWS products!
+          I've been building web apps since my Junior year of college (September 2017). Since then it has become my passion!
+          At my core, I am a professional Angular front-end developer. However, I have extensive experience in technologies like 
+          Node.js, Okta, and MongoDB. Lately I've been focusing on expanding my knowledge by learning other front end frameworks like React 
+          (which is what I used to build this site <span role="img" aria-label="Smiling Emoji">😃</span>) and technologies like AWS products!
         </p>
         <p>
-          Follow me to keep up with what I'm doing on <a href="https://twitter.com/jacobneterer" target="_blank" className="link">Twitter</a> or&nbsp;
-          <a href="https://github.com/jneterer" target="_blank" className="link">GitHub</a> or get in contact with me through&nbsp;
-          <a href="mailto:jacobrneterer@gmail.com" className="link">Email</a>!
+          Follow me to keep up with what I'm doing on <a href="https://twitter.com/jacobneterer" target="_blank" rel="noopener noreferrer" className="link">Twitter</a> and&nbsp;
+          <a href="https://github.com/jneterer" target="_blank" rel="noopener noreferrer" className="link">GitHub</a> or get in contact with me through&nbsp;
+          <a href="mailto:jacobrneterer@gmail.com" rel="noopener noreferrer" className="link">Email</a>!
         </p>
       </div>
     </div>

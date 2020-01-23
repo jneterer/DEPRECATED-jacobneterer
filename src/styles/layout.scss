@@ -17,15 +17,24 @@
     }
   }
 }
+.section {
+  &-header {
+    margin: 0;
+  }
+  &-message {
+    margin: 1em 0 0;
+  }
+}
 .sticky {
   position: fixed;
-  top: 0;
+  top: 0px;
   width: 100%;
+  z-index: 2;
 }
 .sticky-main-content {
   position: relative;
   top: 40px;
-  z-index: -1;
+  z-index: 1;
 }
 .hide {
   display: none !important;

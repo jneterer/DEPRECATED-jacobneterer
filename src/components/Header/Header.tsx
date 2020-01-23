@@ -2,10 +2,6 @@ import React from 'react';
 import './Header.scss';
 
 class Header extends React.Component {
-  constructor(props: any) { 
-    super(props);
-  }
-
   componentDidMount() {
     // Getting access to our main content nad subheader divs.
     let mainContent = document.getElementById('mainContent');
