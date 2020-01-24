@@ -12,7 +12,7 @@ const CurrentlyLearning: React.FC = () => {
           Lightsail - a cloud platform for hosting that is cost effective and quick-to-deploy with a simple terminal interface
         </li>
         <li>
-          EC2 - a web service that can also be used for hosting, basically giving you a computer in the cloud,
+          EC2 - a web service that can also be used for hosting, basically giving you a computer in the cloud
           where you can run your software
         </li>
         <li>

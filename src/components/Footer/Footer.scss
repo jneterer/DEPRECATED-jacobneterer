@@ -1,7 +1,26 @@
+@import '../../styles/colors.scss';
+
 .footer {
   &-container {
     background-color: white;
-    height: 100px;
     margin-top: 50px;
+  }
+  &-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.stay-connected-message, .copywrite {
+  margin: .5em;
+}
+.social-icon {
+  &:not(:last-child) {
+    margin-right: 2.5em;
+  }
+  color: $red;
+  &:hover {
+    cursor: pointer;
   }
 }
