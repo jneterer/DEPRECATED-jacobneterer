@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         <div>
           <a href="https://twitter.com/jacobneterer" className="social-icon" target="_blank" rel="noopener noreferrer"><TwitterIcon fontSize="large"></TwitterIcon></a>
           <a href="https://github.com/jneterer" className="social-icon" target="_blank" rel="noopener noreferrer"><GitHubIcon fontSize="large"></GitHubIcon></a>
-          <a href="mailto:jacobrneterer@gmail.com" className="social-icon" rel="noopener noreferrer"><EmailIcon fontSize="large"></EmailIcon></a>
+          <a href="mailto:contact@jacobneterer.com" className="social-icon" rel="noopener noreferrer"><EmailIcon fontSize="large"></EmailIcon></a>
         </div>
         <p className="copywrite">Copywrite &#169; 2020 - Jacob Neterer</p>
       </div>

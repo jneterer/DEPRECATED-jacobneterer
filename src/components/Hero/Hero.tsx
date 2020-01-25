@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
         <p>
           Follow me to keep up with what I'm doing on <a href="https://twitter.com/jacobneterer" target="_blank" rel="noopener noreferrer">Twitter</a> and&nbsp;
           <a href="https://github.com/jneterer" target="_blank" rel="noopener noreferrer">GitHub</a> or get in contact with me through&nbsp;
-          <a href="mailto:jacobrneterer@gmail.com" rel="noopener noreferrer">Email</a>!
+          <a href="mailto:contact@jacobneterer.com" rel="noopener noreferrer">Email</a>!
         </p>
       </div>
     </div>

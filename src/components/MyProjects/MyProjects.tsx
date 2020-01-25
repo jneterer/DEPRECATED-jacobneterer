@@ -47,7 +47,7 @@ const MyProjects: React.FC = () => {
       </ul>
       <p className="section-message">
         <strong>More will be coming...</strong> I want to build more web applications to showcase my 
-        abilities. <a href="" target="_blank" rel="noopener noreferrer">Stay connected</a> with me for updates!
+        abilities. Scroll below to find me on Twitter, Github, or my Email!
       </p>
     </div>
   );
