@@ -1,0 +1,25 @@
+.my-projects-container {
+  .sub-message {
+    margin: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s cubic-bezier(0, 1, 0, 1);
+    &._shown {
+      max-height: 1000px;
+      transition: max-height 1s ease-in-out, margin 1s ease-in-out;
+    }
+  }
+}
+.read-more {
+  &-container {
+    display: flex;
+    margin-top: 1em;
+    justify-content: center;
+  }
+  &-link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0px;
+  }
+}

@@ -1,4 +1,7 @@
 @import './colors.scss';
+@import './mixins.scss';
+@import './layout.scss';
+@import './animations.scss';
 
 body {
   margin: 0;
@@ -31,26 +34,30 @@ h3 {
 p {
   font-size: 20px;
 }
-a {
+a, .link {
   text-decoration: none;
   color: $red;
   cursor: pointer;
   position: relative;
   &:after {
-    content: '';
-    position: absolute;
-    width: 0; height: 2px;
-    display: block;
-    margin-top: 0px;
-    right: 0;
-    background: $red;
-    transition: width .2s ease;
-    -webkit-transition: width .2s ease;
+    @include aboveIpadPro {
+      content: '';
+      position: absolute;
+      width: 0; height: 2px;
+      display: block;
+      margin-top: 0px;
+      right: 0;
+      background: $red;
+      transition: width .2s ease;
+      -webkit-transition: width .2s ease;
+    }
   }
   &:hover:after {
-    width: 100%;
-    left: 0;
-    background: $red;
+    @include aboveIpadPro {
+      width: 100%;
+      left: 0;
+      background: $red;
+    }
   }
 }
 ul {
@@ -62,7 +69,3 @@ ul {
     }
   }
 }
-
-@import './mixins.scss';
-@import './layout.scss';
-@import './animations.scss';
