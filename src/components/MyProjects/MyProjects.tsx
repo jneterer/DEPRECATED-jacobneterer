@@ -5,6 +5,28 @@ import Project from './Project/Project';
 const MyProjects: React.FC = () => {
   const projects: IProject[] = [
     {
+      projectTitle: <React.Fragment><a href="https://angularstarters.com/" target="_blank" rel="noopener noreferrer">Angular Starters</a> -&nbsp;
+      <a href="https://github.com/jneterer/angular-starters" target="_blank" rel="noopener noreferrer">GitHub Repo</a></React.Fragment>,
+      paragraphs: [
+        `Angular Starters, which is still in development, is a site for the community to contribute their Open Source Angular starter 
+        and themed projects. There will also be a sites section where users can link out to their starter or themed demo site!`,
+        `Two of my passions are Angular and Open Source! My first front end framework I learned was Angular. From very early on, I have 
+        often wondered why so many other frameworks like React and Gatsby have these amazing sites where the community can showcase their 
+        own Open Source projects for the world to use but Angular doesn't. Well, I think its about time Angular had one! That is why I started 
+        Angular Starters!`
+      ]
+    },
+    {
+      projectTitle: <React.Fragment><a href="https://userbase-gatsby-starter.jacobneterer.com/" target="_blank" rel="noopener noreferrer">Userbase Gatsby Starter</a> -&nbsp;
+      <a href="https://github.com/jneterer/userbase-gatsby-starter" target="_blank" rel="noopener noreferrer">GitHub Repo</a> -&nbsp;
+      <a href="https://www.gatsbyjs.org/starters/jneterer/userbase-gatsby-starter/" target="_blank" rel="noopener noreferrer">Gatsby</a></React.Fragment>,
+      paragraphs: [
+        `Userbase Gatsby Starter is a project I worked on to gain experience with both Gatsby and Userbase! I have been following Userbase's
+        progress over the last few months and was super excited on release day to get started. This starter project uses Userbase for user management,
+        Gatsby for the front end, Typescript, and TailwindCSS and SCSS for styling.`
+      ]
+    },
+    {
       projectTitle: <React.Fragment><a href="https://onlineexpress.jlg.com/" target="_blank" rel="noopener noreferrer">Online Express (OLE)</a> -&nbsp;
         <a href="https://www.jlg.com" target="_blank" rel="noopener noreferrer">JLG's</a> eCommerce platform</React.Fragment>,
       paragraphs: [
